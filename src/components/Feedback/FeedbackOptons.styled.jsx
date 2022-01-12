@@ -7,7 +7,7 @@ export const Button = styled.button`
   &:hover {
     cursor: pointer;
     background-color: ${props => {
-      switch (props.option) {
+      switch (props.eventOption) {
         case 'good':
           return 'green';
         case 'neutral':
